@@ -7,11 +7,12 @@ import org.springframework.context.ApplicationContext;
 
 public class SecureSpringJSONController extends SpringAwareJSONRpcController {
 
-    private SecureDyanamicTaskContoller secureDynamicTaskController;
-    private SecureMCPToolsController secureMCPToolsController;
+    private final SecureDyanamicTaskContoller secureDynamicTaskController;
+    private final SecureMCPToolsController secureMCPToolsController;
     public SecureSpringJSONController(ApplicationContext applicationContext) {
         super(applicationContext);
         secureDynamicTaskController = new SecureDyanamicTaskContoller();
+        secureMCPToolsController = new SecureMCPToolsController();
     }
 
     @Override
