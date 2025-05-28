@@ -6,7 +6,7 @@
 
     <groupId>io.github.vishalmysore</groupId>
     <artifactId>tools4ai-security</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
     <name>Tools For Artificial Intelligence</name>
     <description>
         Tools4Ai is Java Agentic AI Framework. Connect Various Tools directly into AI LLM. This is 100% Java implementation of Large Action Model or LLM Agent. It can work with Gemini, OpenAI , LocalAI or any locally hosted LLM
@@ -45,13 +45,13 @@
         <dependency>
             <groupId>io.github.vishalmysore</groupId>
             <artifactId>tools4ai</artifactId>
-            <version>1.1.0</version>
+            <version>1.1.5</version>
         </dependency>
 
         <dependency>
             <groupId>io.github.vishalmysore</groupId>
             <artifactId>a2ajava</artifactId>
-            <version>0.1.2</version>
+            <version>0.1.8.2</version>
         </dependency>
 
 
